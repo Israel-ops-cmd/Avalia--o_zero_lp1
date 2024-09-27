@@ -6,7 +6,7 @@ using namespace std;
 void fatorial(int n){
     int cont = n;
     int var = n;
-    for(int i=var; i>1; i--){
+    for(int i=var; i>2; i--){
         n = n * (var-1);
         var--;
     }
