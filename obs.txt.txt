@@ -1,0 +1,6 @@
+Quando eu compilo um código no meu vs code ele não não reconhece acentuações, ainda não consegui configurar ele pra resolver esse problema, a forma que consegui pra resolver o problema é a seguinte:
+
+- incluir a biblioteca locale.h: #include <locale.h>
+- chamar no main a função setlocale, fazendo o programa entender o "idioma" português e incluir acentuações e pontuações: setlocale(LC_ALL, "Portuguese");
+
+Por isso todos os meus códigos incluem essa biblioteca e essa função
